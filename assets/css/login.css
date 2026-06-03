@@ -1,0 +1,215 @@
+/* ============================================================
+   Login Page — Styles spécifiques
+============================================================ */
+
+body.login-page {
+    background: #f4f6fb;
+    min-height: 100vh;
+    display: flex;
+    align-items: stretch;
+}
+
+.login-wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* ── Illustration gauche ─────────────────────────────────── */
+.login-illustration {
+    flex: 1;
+    background: linear-gradient(135deg, #0f1623 0%, #1e2a45 50%, #0f1623 100%);
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    .login-illustration { display: flex; align-items: center; justify-content: center; }
+}
+
+.illustration-content {
+    position: relative;
+    z-index: 2;
+    padding: 60px;
+    max-width: 520px;
+}
+
+.ill-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 32px;
+}
+
+.ill-icon {
+    width: 52px; height: 52px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.ill-title {
+    font-family: 'Sora', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.ill-tagline {
+    font-size: 16px;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+.ill-features { display: flex; flex-direction: column; gap: 20px; }
+
+.feat-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.feat-icon {
+    width: 42px; height: 42px;
+    background: rgba(99,102,241,0.2);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 18px;
+    color: #818cf8;
+    flex-shrink: 0;
+}
+
+.feat-item strong {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.feat-item p {
+    color: rgba(255,255,255,0.5);
+    font-size: 12.5px;
+    margin: 0;
+}
+
+/* Décoration cercles */
+.ill-circles {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.06);
+}
+.c1 { width: 400px; height: 400px; bottom: -100px; right: -100px; }
+.c2 { width: 250px; height: 250px; top: 40px; right: 40px; opacity: 0.4; }
+.c3 { width: 150px; height: 150px; top: 200px; right: 220px; opacity: 0.3; }
+
+/* ── Formulaire ─────────────────────────────────────────── */
+.login-form-panel {
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 40px 20px;
+}
+
+@media (min-width: 992px) {
+    .login-form-panel { flex-shrink: 0; }
+}
+
+.login-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-logo {
+    width: 56px; height: 56px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-radius: 16px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px;
+    color: #fff;
+    margin: 0 auto 24px;
+}
+
+.login-header { text-align: center; margin-bottom: 32px; }
+
+.login-title {
+    font-family: 'Sora', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    color: #1e293b;
+    margin: 0 0 8px;
+}
+
+.login-subtitle {
+    font-size: 14px;
+    color: #64748b;
+    margin: 0;
+}
+
+.login-alert {
+    border-radius: 10px;
+    font-size: 13.5px;
+    margin-bottom: 20px;
+}
+
+.form-floating .form-control {
+    border: 1.5px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 16px 48px 16px 16px;
+    height: auto;
+    min-height: 58px;
+    transition: all 0.2s;
+}
+.form-floating .form-control:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
+}
+.form-floating label {
+    font-size: 14px;
+    color: #94a3b8;
+    padding: 16px;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 10;
+    padding: 4px;
+    transition: color 0.2s;
+}
+.password-toggle:hover { color: #6366f1; }
+
+.form-check-input:checked {
+    background-color: #6366f1;
+    border-color: #6366f1;
+}
+.form-check-label { font-size: 13px; color: #64748b; cursor: pointer; }
+
+.btn-login {
+    background: linear-gradient(135deg, #6366f1, #4f46e5);
+    color: #fff;
+    border: none;
+    border-radius:
