@@ -39,6 +39,8 @@ HTML5
 CSS3
 JavaScript
 Architecture MVC
+
+
 📂 Structure du projet
 ├── api/
 ├── assets/
@@ -51,6 +53,8 @@ Architecture MVC
 ├── index.php
 ├── logout.php
 └── test.php
+
+
 Description des dossiers
 api/ : gestion des requêtes API.
 assets/ : fichiers CSS, JavaScript et ressources statiques.
@@ -60,6 +64,8 @@ database/ : scripts SQL et gestion de la base de données.
 models/ : manipulation des données.
 sessions/ : gestion des sessions utilisateurs.
 views/ : interfaces utilisateur.
+
+
 🗄️ Base de données
 
 La base de données permet de stocker :
