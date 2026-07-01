@@ -14,12 +14,19 @@ Permettre l'administration des utilisateurs.
 Offrir une interface simple pour les bibliothécaires et les lecteurs.
 
 🚀 Fonctionnalités
+
 Gestion des livres
+
 Ajouter un livre
+
 Modifier les informations d'un livre
+
 Supprimer un livre
+
 Consulter la liste des livres disponibles
+
 Gestion des utilisateurs
+
 Inscription et authentification
 Gestion des profils utilisateurs
 Gestion des rôles (administrateur, utilisateur)
