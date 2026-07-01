@@ -28,23 +28,40 @@ Consulter la liste des livres disponibles
 Gestion des utilisateurs
 
 Inscription et authentification
+
 Gestion des profils utilisateurs
+
 Gestion des rôles (administrateur, utilisateur)
+
 Gestion des emprunts
+
 Emprunter un livre
+
 Retourner un livre
+
 Historique des emprunts
+
 Vérification de la disponibilité des ouvrages
-Recherche
+
+Recherche:
 Recherche par titre
+
 Recherche par auteur
+
 Recherche par catégorie
-🛠️ Technologies utilisées
+
+🛠️ Technologies utilisées:
+
 PHP
+
 MySQL
+
 HTML5
+
 CSS3
+
 JavaScript
+
 Architecture MVC
 
 
