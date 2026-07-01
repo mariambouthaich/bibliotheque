@@ -42,9 +42,13 @@ Architecture MVC
 
 
 📂 Structure du projet
+
 ├── api/
+
 ├── assets/
+
 ├── config/
+
 ├── controllers/
 ├── database/
 ├── models/
