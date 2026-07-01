@@ -50,8 +50,11 @@ Architecture MVC
 ├── config/
 
 ├── controllers/
+
 ├── database/
+
 ├── models/
+
 ├── sessions/
 ├── views/
 ├── index.php
